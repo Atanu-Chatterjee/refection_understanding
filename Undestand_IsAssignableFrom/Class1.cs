@@ -4,9 +4,10 @@ namespace Undestand_IsAssignableFrom
 {
     public class Class1
     {
-        ///
-        Add summery
-        ///
+        /// <summary>
+        /// determine which classes which implemt the interface
+        /// </summary>
+        /// <param name="InterfaceName"></param>
         private static void LearnRefelction_IsAssignableFrom(Type InterfaceName)
         {
             System.Reflection.Assembly thisAssembly = System.Reflection.Assembly.GetExecutingAssembly();
